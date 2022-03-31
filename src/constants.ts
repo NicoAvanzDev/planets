@@ -1,0 +1,11 @@
+const VIEW_WIDTH = 800
+const VIEW_HEIGHT = 800
+
+const VIEW_RATE = 2
+
+const G = 6.67408e-11
+const AU = 1.49 * 10e11
+const SCALE = 250 / AU
+const TIMESTEP = 3600 * 24
+
+export { VIEW_WIDTH, VIEW_HEIGHT, VIEW_RATE, G, AU, SCALE, TIMESTEP }
